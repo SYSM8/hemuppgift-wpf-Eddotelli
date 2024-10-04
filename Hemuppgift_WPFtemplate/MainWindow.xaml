@@ -8,27 +8,19 @@
         Title="MainWindow" Height="450" Width="800">
 
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
 
-        <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
-        </Grid.RowDefinitions>
-
-        <Button x:Name="btnGrid"
+        <Button 
                 Content="Grid"
                 FontSize="20"
                 Grid.Column="0"
-                Grid.Row="0"/>
+                Grid.Row="0"
+                Click="OpenGridWindow"/>
 
         <Button x:Name="btnStackPanel"
                 Content="StackPanel"
                 FontSize="20"
                 Grid.Column="1"
-                    Grid.Row="0"/>
+                Grid.Row="0" Click="btnStackPanel_Click"/>
 
         <Button x:Name="btnWrapPanel"
                 Content="WrapPanel"
@@ -41,5 +33,16 @@
                 FontSize="20"
                 Grid.Column="1"
                 Grid.Row="1"/>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        
     </Grid>
 </Window>
