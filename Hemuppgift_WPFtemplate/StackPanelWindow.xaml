@@ -67,9 +67,9 @@
                            Width="30"
                            Height="30"
                            Margin="5"/>
+                <ScrollBar Height="110" Width="21"/>
 
             </StackPanel>
-            <ScrollBar HorizontalAlignment="Left" Margin="756,77,0,0" VerticalAlignment="Top"/>
         </Grid>
 
     </Grid>
