@@ -32,7 +32,7 @@
                 Content="DockPanel"
                 FontSize="20"
                 Grid.Column="1"
-                Grid.Row="1"/>
+                Grid.Row="1" Click="btnDockPanel_Click"/>
 
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>

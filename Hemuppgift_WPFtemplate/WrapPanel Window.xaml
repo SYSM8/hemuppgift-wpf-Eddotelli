@@ -8,7 +8,7 @@
         Title="WrapPanel_Window" Height="450" Width="800">
     <Grid>
 
-        <StackPanel>
+        <WrapPanel>
 
             <Grid>
                 <RadioButton x:Name="rbtnHorizontal"
@@ -21,13 +21,13 @@
 
             </Grid>
                 
-        </StackPanel>
+        </WrapPanel>
 
         <Grid Margin="0,27,0,0">
 
             <ScrollViewer Margin="0,39,0,0">
                 
-                <StackPanel Orientation="Horizontal"
+                <WrapPanel Orientation="Horizontal"
                             Name="OrientationStackPanel"
                             VerticalAlignment="Top"
                             HorizontalAlignment="Left"
@@ -73,7 +73,7 @@
                          Height="30"
                          Margin="5"/>
 
-                </StackPanel>
+                </WrapPanel>
                 
             </ScrollViewer>
             
