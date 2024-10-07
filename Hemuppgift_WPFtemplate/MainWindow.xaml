@@ -26,7 +26,7 @@
                 Content="WrapPanel"
                 FontSize="20"
                 Grid.Column="0"
-                Grid.Row="1"/>
+                Grid.Row="1" Click="btnWrapPanel_Click"/>
 
         <Button x:Name="btnDockPanel"
                 Content="DockPanel"
