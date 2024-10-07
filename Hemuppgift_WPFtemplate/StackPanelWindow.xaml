@@ -6,71 +6,84 @@
         xmlns:local="clr-namespace:Hemuppgift_WPFtemplate"
         mc:Ignorable="d"
         Title="StackPanelWindow" Height="450" Width="800">
+
     <Grid>
 
         <StackPanel>
-            <Grid Height="43">
+
+            <Grid Height="51">
+
                 <RadioButton x:Name="rbtnHorizontal"
                              Content="Horizontal"
                              FontSize="13"
-                             Margin="0,6,718,21" Checked="rbtnHorizontal_Checked"/>
+                             Margin="0,6,718,21"
+                             Checked="rbtnHorizontal_Checked"/>
 
                 <RadioButton x:Name="rbtnVertical"
                              Content="Vertical"
                              FontSize="13"
-                             Margin="87,6,649,21" Checked="rbtnVertical_Checked"/>
+                             Margin="87,6,624,21"
+                             Checked="rbtnVertical_Checked"/>
+
             </Grid>
 
         </StackPanel>
 
-        <Grid Margin="0,61,0,0">
+        <Grid Margin="0,61,0,0" x:Name="gridColor">
 
-            <StackPanel Orientation="Horizontal"
-                        VerticalAlignment="Top">
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
 
-                <Rectangle Fill ="Red"
-                           Width="100"
-                           Height="100"
-                           Margin="5"/>
+                <StackPanel Orientation="Horizontal"
+                            x:Name="OrientationStackPanel"
+                            VerticalAlignment="Top" Margin="0,10,0,0"
+                            HorizontalAlignment="Left">
 
-                <Rectangle Fill="Orange"
-                           Width="90"
-                           Height="90"
-                           Margin="5"/>
+                    <Rectangle Fill ="Red"
+                               Width="100"
+                               Height="100"
+                               Margin="5"/>
 
-                <Rectangle Fill="Yellow"
-                           Width="80"
-                           Height="80"
-                           Margin="5"/>
+                    <Rectangle Fill="Orange"
+                               Width="90"
+                               Height="90"
+                               Margin="5"/>
 
-                <Rectangle Fill="LightGreen"
-                           Width="70"
-                           Height="70"
-                           Margin="5"/>
+                    <Rectangle Fill="Yellow"
+                               Width="80"
+                               Height="80"
+                               Margin="5"/>
 
-                <Rectangle Fill="Green"
-                           Width="60"
-                           Height="60"
-                           Margin="5"/>
+                    <Rectangle Fill="LightGreen"
+                               Width="70"
+                               Height="70"
+                               Margin="5"/>
 
-                <Rectangle Fill="LightBlue"
-                           Width="50"
-                           Height="50"
-                           Margin="5"/>
+                    <Rectangle Fill="Green"
+                               Width="60"
+                               Height="60"
+                               Margin="5"/>
 
-                <Rectangle Fill="Blue"
-                           Width="40"
-                           Height="40"
-                           Margin="5"/>
+                    <Rectangle Fill="LightBlue"
+                               Width="50"
+                               Height="50"
+                               Margin="5"/>
 
-                <Rectangle Fill="Black"
-                           Width="30"
-                           Height="30"
-                           Margin="5"/>
-                <ScrollBar Height="110" Width="21"/>
+                    <Rectangle Fill="Blue"
+                               Width="40"
+                               Height="40"
+                               Margin="5"/>
 
-            </StackPanel>
+                    <Rectangle Fill="Black"
+                               Width="30"
+                               Height="30"
+                               Margin="5"/>
+
+                </StackPanel>
+
+            </ScrollViewer>
+
         </Grid>
 
     </Grid>
+
 </Window>

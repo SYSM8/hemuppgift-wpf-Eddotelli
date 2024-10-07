@@ -26,12 +26,12 @@ namespace Hemuppgift_WPFtemplate
 
         private void rbtnHorizontal_Checked(object sender, RoutedEventArgs e)
         {
-
+            OrientationStackPanel.Orientation = Orientation.Horizontal;
         }
 
         private void rbtnVertical_Checked(object sender, RoutedEventArgs e)
         {
-
+            OrientationStackPanel.Orientation = Orientation.Vertical;
         }
     }
 }
