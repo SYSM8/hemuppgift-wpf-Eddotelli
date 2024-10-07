@@ -11,10 +11,12 @@
         <WrapPanel>
 
             <Grid>
+                <!--Horiozontal knappen-->
                 <RadioButton x:Name="rbtnHorizontal"
                              Content="Horizontal"
                              FontSize="13" Margin="0,0,714,0" Checked="rbtnHorizontal_Checked"/>
 
+                <!--Vertical knappen.-->
                 <RadioButton x:Name="rbtnVertical"
                              Content="Vertical"
                              FontSize="13" Margin="101,0,628,0" Checked="rbtnVertical_Checked"/>
@@ -25,6 +27,7 @@
 
         <Grid Margin="0,27,0,0">
 
+            <!--Scrollbaren-->
             <ScrollViewer Margin="0,39,0,0">
                 
                 <WrapPanel Orientation="Horizontal"
@@ -33,6 +36,7 @@
                             HorizontalAlignment="Left"
                             Margin="0,10,0,0">
 
+                    <!--Nedan är Ellipse cirklarna i olika färger.-->
                     <Ellipse Fill="Red"
                              Width="100"
                              Height="100"

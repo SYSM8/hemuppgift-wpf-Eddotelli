@@ -9,6 +9,7 @@
 
     <Grid>
 
+        <!--Knappen för Grid Window.-->
         <Button 
                 Content="Grid"
                 FontSize="20"
@@ -16,29 +17,34 @@
                 Grid.Row="0"
                 Click="OpenGridWindow"/>
 
+        <!--Knappen för StackPanel Window.-->
         <Button x:Name="btnStackPanel"
                 Content="StackPanel"
                 FontSize="20"
                 Grid.Column="1"
                 Grid.Row="0" Click="btnStackPanel_Click"/>
 
+        <!--Knappen för WrapPanel Window.-->
         <Button x:Name="btnWrapPanel"
                 Content="WrapPanel"
                 FontSize="20"
                 Grid.Column="0"
                 Grid.Row="1" Click="btnWrapPanel_Click"/>
 
+        <!--Knappen för DockPanel Window.-->
         <Button x:Name="btnDockPanel"
                 Content="DockPanel"
                 FontSize="20"
                 Grid.Column="1"
                 Grid.Row="1" Click="btnDockPanel_Click"/>
 
+        <!--Definerar columner för Main Window.-->
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
 
+        <!--Definerar rader för Main Window.-->
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition/>

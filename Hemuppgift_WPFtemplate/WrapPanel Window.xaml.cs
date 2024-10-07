@@ -24,11 +24,13 @@ namespace Hemuppgift_WPFtemplate
             InitializeComponent();
         }
 
+        //Metod för Horizontal-knappen.
         private void rbtnHorizontal_Checked(object sender, RoutedEventArgs e)
         {
             OrientationStackPanel.Orientation = Orientation.Horizontal;
         }
 
+        //Metod för Vertical-knappen.
         private void rbtnVertical_Checked(object sender, RoutedEventArgs e)
         {
             OrientationStackPanel.Orientation = Orientation.Vertical;

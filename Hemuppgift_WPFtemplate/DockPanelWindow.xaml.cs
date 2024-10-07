@@ -26,6 +26,7 @@ namespace Hemuppgift_WPFtemplate
             InitializeComponent();
         }
 
+        //Center-knappen som visar bilden vid knapptryck.
         private void btnCenter_Click(object sender, RoutedEventArgs e)
         {
             picTrophy.Visibility = Visibility.Visible;

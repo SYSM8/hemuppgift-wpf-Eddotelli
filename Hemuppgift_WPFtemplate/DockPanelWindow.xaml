@@ -8,6 +8,8 @@
         Title="DockPanelWindow" Height="450" Width="800">
     <Grid>
 
+        
+        <!--Dockpanel som innehåller knappar.-->
         <DockPanel Margin="5">
 
             <Button x:Name="btnTop"
@@ -48,6 +50,7 @@
 
         </DockPanel>
 
+        <!--Trophy-bilden.-->
         <Image Source="/TrophyImage.jpg"
                x:Name="picTrophy"
                Visibility="Hidden"

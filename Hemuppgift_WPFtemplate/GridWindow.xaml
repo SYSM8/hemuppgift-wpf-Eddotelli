@@ -11,6 +11,7 @@
 
         <Grid Margin="0,0,0,374">
 
+            <!--Stackpanel med textblockar och textboxar.-->
             <StackPanel Orientation="Horizontal" Height="50" VerticalAlignment="Top">
                        
                <TextBlock x:Name="tbRow"
@@ -56,6 +57,7 @@
                 
         </Grid>
 
+        <!--Grid som innehåller rectangeln, textblock med info och defineringar på kolumner och rader.-->
         <Grid Margin="0,65,0,0">
 
             <Rectangle x:Name="recRec"

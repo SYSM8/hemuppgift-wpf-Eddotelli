@@ -13,12 +13,14 @@
 
             <Grid Height="51">
 
+                <!--Horiozontal knappen-->
                 <RadioButton x:Name="rbtnHorizontal"
                              Content="Horizontal"
                              FontSize="13"
                              Margin="0,6,718,21"
                              Checked="rbtnHorizontal_Checked"/>
 
+                <!--Vertical knappen-->
                 <RadioButton x:Name="rbtnVertical"
                              Content="Vertical"
                              FontSize="13"
@@ -31,6 +33,7 @@
 
         <Grid Margin="0,61,0,0" x:Name="gridColor">
 
+            <!--Scrollbaren-->
             <ScrollViewer VerticalScrollBarVisibility="Auto">
 
                 <StackPanel Orientation="Horizontal"

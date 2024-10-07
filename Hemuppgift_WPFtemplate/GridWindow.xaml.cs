@@ -25,17 +25,22 @@ namespace Hemuppgift_WPFtemplate
             InitializeComponent();
         }
 
+        //Metod för Apply-knappen.
         private void btnApply_Click(object sender, RoutedEventArgs e)
         {
+            //Konvertar string-inmatningen till int.
             int row = Convert.ToInt32(txtRow.Text);
             int column = Convert.ToInt32(txtColumn.Text);
 
+            //Om inmattningen är större eller lika med noll.
             if(row >= 0 && column >= 0)
             {
+                //För att förflytta rectangeln.
                 Grid.SetRow(recRec,row);
                 Grid.SetColumn(recRec, column);
 
 
+                //För att förflytta texten som visar rad och kolumn.
                 Grid.SetRow(Result, row);
                 Grid.SetColumn(Result, column);
 
